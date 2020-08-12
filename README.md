@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## The Steps
 
-* Use scraping using `beautifulsoup` on the Jupyter notebook first.
+* scrap from the imdb website `https://www.imdb.com/search/title/?release_date=2019-01-01,2019-12-31` using `beautifulsoup` on the Jupyter notebook first. 
 * The tag information you want to get can be adjusted.
 
 ```python
