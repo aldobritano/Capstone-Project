@@ -20,9 +20,9 @@ pip install -r requirements.txt
 ```
 
 
-## What You Need to Do
+## The Steps
 
-* Please try scraping using `beautifulsoup` on the notebook first.
+* Use scraping using `beautifulsoup` on the Jupyter notebook first.
 * The tag information you want to get can be adjusted.
 
 ```python
@@ -37,9 +37,9 @@ df = pd.DataFrame(name of your tupple, columns = (name of the columns))
 ```
 
 
-### Data Resource
+### Conclusion
 
-1. Data for films released in 2019 from `imdb.com/search/title/? Release_date = 2019-01-01,2019-12-31`
-
+In this project we can conclude that at
+ https://www.imdb.com/search/title/?release_date=2019-01-01,2019-12-31 the most popular movies in descending order are as follows: 1.Joker, 2.Avengers:End Game, 3.Once upon a time in Hollywood, 4. Chernobyl, 5.Gisaengchung, 6. Knives Out, 7.1917
      
      
