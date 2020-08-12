@@ -2,7 +2,7 @@
 
 # Web-Scrapping using Beautifulsoup
 
-This project was developed as a form of self-development in data science. The final result expected from this project is to do simple webscrapping to get information from the website. In this project we will also use a simple dashboard flask to display our scrap and visualization results.
+This project was developed as a form of final project for a bootcamp in Indonesia called algoritma. Here we will also use a simple dashboard flask to display our scrap and visualization results
 
 ## Dependencies
 
@@ -36,18 +36,10 @@ pip install -r requirements.txt
 df = pd.DataFrame(name of your tupple, columns = (name of the columns))
 ```
 
-* Finally, you can use the `scrap` function by filling in the following section with the web url link you want.
-
-```python
-dataset_movie = scrap(___) #insert url here
-```
-
-* You can also play with the UI in `index.html` where you can follow the comments to see which parts can be changed.
 
 ### Data Resource
 
 1. Data for films released in 2019 from `imdb.com/search/title/? Release_date = 2019-01-01,2019-12-31`
 
-     * From this page, look for `title`,` imdb rating`, `metascore`, and` votes`
-     * Make plots of the 7 most popular films of 2019.
+     
      
